@@ -17,6 +17,17 @@
 
 - The app is fully testeable from the UI that is running in address [http://localhost:2023].
 
+# Final anotations
+
 - Please before run the automated tests populate the DB with some gateways and devices
 
 - Enjoy
+
+# Those are the enpoints for PostMan (METHOD) Any data is for exmaple
+
+- http://localhost:2023/api/gateways/ (GET) _Get all Gateways_
+- http://localhost:2023/api/gateways/8dc2845c-66a1-4e34-b0fb-1ed22c233052 (GET) _Get this Gateway_
+- http://localhost:2023/api/gateways/8dc2845c-66a1-4e34-b0fb-1ed22c233052 (DELETE) _Delete this Gateway_
+- http://localhost:2023/api/gateways (POST) _Create a Gateway_
+- http://localhost:2023/api/gateway/8dc2845c-66a1-4e34-b0fb-1ed22c233052 (POST) _Create a Device_
+- http://localhost:2023/api/gateway/8dc2845c-66a1-4e34-b0fb-1ed22c233052 (DELETE) _Delete a Device_
