@@ -15,6 +15,8 @@
 
 - If you Completed the firsts steps then run the server in production mode with the comand **npm run start** .
 
-- The app is fully testeable from the UI
+- The app is fully testeable from the UI that is running in address [http://localhost:2023].
+
+- Please before run the automated tests populate the DB with some gateways and devices
 
 - Enjoy

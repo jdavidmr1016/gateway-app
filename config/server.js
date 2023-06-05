@@ -1,6 +1,6 @@
 import express from "express";
 import * as dotenv from "dotenv";
-import cors from "cors"
+import cors from "cors";
 
 import { dbConnect } from "./db.js";
 import gateway from "../routes/gateway.js";
@@ -8,7 +8,7 @@ import device from "../routes/device.js";
 
 export class Server {
   constructor() {
-    dotenv.config(); /// to check
+    dotenv.config();
     //creating server constants
     this.app = express();
     this.port = process.env.PORT;
@@ -29,7 +29,7 @@ export class Server {
 
   ////Middlewares
   middlewares() {
-	 this.app.use(cors());
+    this.app.use(cors());
     this.app.use(express.json());
     this.app.use(
       express.static("public", { index: ["index.html", "index.htm"] })
